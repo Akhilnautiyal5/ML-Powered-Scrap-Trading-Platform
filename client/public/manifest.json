@@ -1,0 +1,17 @@
+{
+    "name": "ML-TradeSmart AI Hub",
+    "short_name": "TradeSmart",
+    "description": "Premium AI-Powered Second-Hand Trading Platform",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#10b981",
+    "icons": [
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+# # ==========================================
+# # 1. Environment & Secrets
+# # ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*serviceAccountKey*.json
+# secrets.json
+
+# # ==========================================
+# # 2. Node & Front-end (Client)
+# # ==========================================
+# # Dependencies
+node_modules/
+# .pnp
+# .pnp.js
+
+# # Production builds
+dist/
+build/
+out/
+.next/
+
+# # Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# # ==========================================
+# # 3. Python & Back-end
+# # ==========================================
+# # Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# # Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# # Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+Logs
+*.log
+
+# ==========================================
+# 4. Machine Learning & Data
+# ==========================================
+# Model weights and artifacts
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Data directories
+# data/
+Dataset/
+archive/
+uploads/
+
+# ==========================================
+# # 5. OS & IDE Specific
+# # ==========================================
+# # macOS
+.DS_Store
+
+# # Windows
+Thumbs.db
+Desktop.ini
+
+# # IDEs
+.vscode/
+.idea/
+*.iml
+
+# # Jupyter Notebooks
+.ipynb_checkpoints/
+
+# # ==========================================
+# # 6. Extra Safety & Configs
+# # ==========================================
+firebaseConfig.js
+config.js
+instance/
+config/
+
+# # Temp files
+*.tmp
+*.temp
+
+# # Local databases
+*.db
+*.sqlite3

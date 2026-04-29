@@ -1,0 +1,64 @@
+# =========================
+# Core Backend
+# =========================
+Flask==3.1.2
+flask-cors==6.0.1
+Werkzeug==3.1.3
+python-dotenv==1.2.1
+requests==2.32.5
+cloudinary==1.44.2
+
+# =========================
+# Database / Data Handling
+# =========================
+pandas==2.3.3
+numpy==2.2.6
+pyarrow==18.1.0
+
+# =========================
+# Machine Learning
+# =========================
+scikit-learn==1.7.2
+joblib==1.5.2
+scipy==1.16.3
+
+# =========================
+# Deep Learning (CPU)
+# =========================
+tensorflow==2.20.0
+keras==3.12.0
+h5py==3.15.1
+tensorboard==2.20.0
+
+# =========================
+# Computer Vision
+# =========================
+opencv-python==4.12.0.88
+pillow==11.3.0
+pytesseract==0.3.10
+
+# =========================
+# NLP (If Needed)
+# =========================
+nltk==3.8.1
+regex==2023.10.3
+
+# =========================
+# Google / AI APIs
+# =========================
+google-generativeai==0.8.6
+google-api-python-client==2.187.0
+google-auth==2.45.0
+
+# =========================
+# Utilities
+# =========================
+tqdm==4.66.1
+protobuf==5.29.5
+
+# =========================
+# Authentication & Security
+# =========================
+firebase-admin==7.2.0
+bcrypt==5.0.0
+PyJWT==2.11.0
