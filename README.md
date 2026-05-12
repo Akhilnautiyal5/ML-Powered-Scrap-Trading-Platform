@@ -259,13 +259,3 @@ escrow-v2   → Hardened Escrow Production Version
 This project is licensed under the MIT License.
 
 ---
-
-## 👨‍💻 Author
-
-**Akshit Garg**  
-B.Tech CSE | Final Year  
-Machine Learning & Full-Stack Enthusiast  
-
----
-
-⭐ If you found this project useful, consider giving it a star!
